@@ -1,0 +1,19 @@
+
+[package]
+name = "cli-gen"
+edition = "2021"
+version = "0.0.0"
+description = "A function exposed in python that generates a CLI doc from rust source code."
+repository = "https://github.com/cpp-linter/clang-tools-installer/tree/main/docs"
+authors.workspace = true
+homepage.workspace = true
+license.workspace = true
+
+[dependencies]
+clang-tools-installer = { path = "../clang-tools-installer" }
+clap = "4.5.21"
+pyo3 = "0.23.2"
+
+[lib]
+name = "cli_gen"
+crate-type = ["cdylib"]

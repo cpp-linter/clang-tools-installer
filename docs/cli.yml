@@ -1,0 +1,23 @@
+# file to hold metadata about the action.yml inputs and outputs
+commands:
+  install:
+    minimum-version: '1.0.0'
+  uninstall:
+    minimum-version: '1.0.0'
+  help:
+    minimum-version: '1.0.0'
+  version:
+    minimum-version: '1.0.0'
+  # '--directory':
+  #   minimum-version: '1.0.0'
+  # '-f':
+  #   minimum-version: '1.0.0'
+  # lines-changed-only:
+  #   minimum-version: '1.5.0'
+  #   required-permission: 'contents: read #file-changes'
+  # thread-comments:
+  #   minimum-version: '1.6.1'
+  #   required-permission: 'contents: write #thread-comments'
+  # passive-reviews:
+  #   minimum-version: '1.10.0'
+  #   required-permission: 'pull-requests: write #pull-request-reviews'
